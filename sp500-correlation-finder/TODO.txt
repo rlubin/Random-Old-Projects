@@ -1,0 +1,5 @@
+remove duplicates in uncorrs list
+
+create a portfolio of assets thats is uncorrelated
+
+create a dataframe of correlations so you can operate on it

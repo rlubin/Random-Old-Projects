@@ -1,0 +1,7 @@
+display all graphs and tables on a single display with mathlibplot and seaborn
+
+have funtions return graph and dataframes
+
+get cli progress bar working
+
+create a program that finds uncorrelated assets!!! FIRST STEP

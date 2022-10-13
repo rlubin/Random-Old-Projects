@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Car Total Cost Calculator</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center">Car Total Cost Calculator</h1>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col text-center">
+          <form>
+            <h3>Loan</h3>
+            <input class="form-control" type="number" id="loan" placeholder="ex. '1000'" required>
+            <h3>APR %</h3>
+            <input class="form-control" type="number" id="apr" placeholder="ex. '5.25'" required>
+            <h3>Time</h3>
+            <input class="form-control" type="number" id="time" placeholder="ex. '60'" required>
+            <br>
+            <select class="form-control" id="period">
+              <option value="months" selected>Months</option>
+              <option value="years">Years</option>
+            </select>
+            <br>
+            <br>
+            <input class="btn btn-primary" type="button" value="Calculate" onclick="calculate()"></input>
+          </form>
+        </div>
+        <div class="col"></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col text-center">
+          <div id="output">
+            <table class="table table-striped"" align=" center">
+              <thead class="thead-dark">
+                <tr>
+                  <th>
+                    <p><strong>Total Cost</strong></p>
+                  </th>
+                  <th>
+                    <p><strong>Percent of Loan Paid</strong></p>
+                  </th>
+                </tr>
+              </thead> 
+              <tbody>
+                <tr>
+                <tr>
+                  <td>
+                    <p id="t-total_cost"></p>
+                  </td>
+                  <td>
+                    <p id="t-percentage"></p>
+                  </td>
+                </tr>
+              </tbody>
+              <thead class="thead-dark">
+                <tr>
+                  <th>
+                    <p><strong>Loan</strong></p>
+                  </th>
+                  <th>
+                    <p><strong>APR %</strong></p>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <tr>
+                    <td>
+                      <p id="t-loan"></p>
+                    </td>
+                    <td>
+                      <p id="t-apr"></p>
+                    </td>
+                </tr>
+              </tbody>
+              <thead class="thead-dark">
+                <tr>
+                  <th>
+                    <p><strong>Months</strong></p>
+                  </th>
+                  <th>
+                    <p><strong>Years</strong></p>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                <tr>
+                  <td>
+                    <p id="t-months"></p>
+                  </td>
+                  <td>
+                    <p id="t-years"></p>
+                  </td>
+                </tr>
+              </tbody>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+
+</html>

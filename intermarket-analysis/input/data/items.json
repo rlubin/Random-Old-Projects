@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "name": "SP500",
+      "symbol": "SPX",
+      "type": "stock"
+    },
+    {
+      "name": "SPDR REITS",
+      "symbol": "RWR",
+      "type": "stock"
+    },
+    {
+      "name": "SP Materials sector",
+      "symbol": "XLB",
+      "type": "stock"
+    },
+    {
+      "name": "SP Industrial sector",
+      "symbol": "XLI",
+      "type": "stock"
+    },
+    {
+      "name": "SP Consumer descretionary",
+      "symbol": "XLY",
+      "type": "stock"
+    },
+    {
+      "name": "SP Consumer staples",
+      "symbol": "XLP",
+      "type": "stock"
+    },
+    {
+      "name": "SP Energy sector",
+      "symbol": "XLE",
+      "type": "stock"
+    },
+    {
+      "name": "SP Financial sector",
+      "symbol": "XLF",
+      "type": "stock"
+    },
+    {
+      "name": "SP Utilities sector",
+      "symbol": "XLU",
+      "type": "stock"
+    },
+    {
+      "name": "SP Health care sector",
+      "symbol": "XLV",
+      "type": "stock"
+    },
+    {
+      "name": "SP Tech sector",
+      "symbol": "XLK",
+      "type": "stock"
+    },
+    {
+      "name": "CAD/USD",
+      "symbol": "CADUSD",
+      "type": "currency"
+    }
+  ]
+}

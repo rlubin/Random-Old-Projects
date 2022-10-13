@@ -1,0 +1,4 @@
+,Ticker,Trigger
+0,ABT,price crossover 9 sma
+1,ABBV,price crossover 9 sma
+2,ABMD,price crossover 9 sma

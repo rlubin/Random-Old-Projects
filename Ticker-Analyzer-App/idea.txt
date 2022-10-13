@@ -1,0 +1,9 @@
+type a stock ticker when prompted
+
+code should
+	1 use api to get all data
+	2 keep track of the items needed to make a probability distribution (average, std dev, max, min, range, bins)
+	3 display a probability distribution
+
+type in ticker
+display probability distribution

@@ -1,0 +1,9 @@
+STEP 1: GET DATA
+
+continuously move the portfolio into whatever is going up after a signal
+
+coins avaliable on kraken:
+
+
+test them for correlations against each other etc.
+look for coins with low correlation (go back and forth between them)

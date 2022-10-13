@@ -1,0 +1,2 @@
+1.0
+-grab a sp500 stock chart, analyze it to see what its likely price range is over the next x period

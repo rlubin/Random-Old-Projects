@@ -1,0 +1,32 @@
+ADD ANALYSIS TO REPORT() IN ALGORITHM TESTER
+
+README TO EXPLAIN PROJECT
+COMMENTS THAT MAKE IT EASY TO UNDERSTAND
+
+GET APIs for data, stop storing all of this stupid data
+
+add chart showing where all trades would have taken place
+
+add statistics for analyzing the trade logs
+
+comment code files
+and maybe 1 liners for methods
+and states of variables etc
+
+add more columns to trade analysis: trade length
+
+clean up files
+
+leave chart until the end
+
+create metrics for portfolio performance and print to csv
+
+code clean up
+
+FINISH THE TRADE ANALYSIS OUTPUT
+
+FIX THE FUCKING WARNINGS
+
+get more data and run it on lots of securities over a small timeframe
+
+ADD PRICE ANALYSIS FUNCTIONS TO PriceData.py

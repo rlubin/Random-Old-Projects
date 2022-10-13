@@ -1,0 +1,19 @@
+user creates a csv file of security tickers
+
+places that file in a specified folder
+
+runs the application which checks to see if the securities have triggered any alerts
+
+print a file of alerts
+
+meeting:
+desktop exe
+api
+stock via csv file
+signals
+    5 sma over 25 sma
+    9          20
+    $ over 9
+    $ under 9
+    $ over 20
+    fisher transform

@@ -1,0 +1,13 @@
+entry and exit based on pricing crossing a moving average (trying 2-20)
+
+entry and exit based on moving average crossovers (trying 2-20)
+
+exits on stop loss (ATR)
+
+profit targets based on previous levels
+
+cross 5, 15 ema long
+
+cross 15, 5 ema short
+
+how to enter exit strategy on tradingview?

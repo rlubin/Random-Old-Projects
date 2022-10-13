@@ -1,0 +1,21 @@
+Ticker,Trigger
+BNS.TO,price crossover 9 sma
+BTO.TO,price crossunder 9 sma
+DML.TO,price crossunder 9 sma
+DOL.TO,price crossunder 9 sma
+EMA.TO,5 sma crossover 25 sma
+EMA.TO,9 sma crossover 20 sma
+FTS.TO,5 sma crossover 25 sma
+IPL.TO,price crossover 9 sma
+IVN.TO,price crossover 9 sma
+MG.TO,price crossunder 9 sma
+MRU.TO,price crossover 9 sma
+NXE.TO,price crossunder 9 sma
+OTEX.TO,price crossover 9 sma
+SAP.TO,5 sma crossover 25 sma
+TRI.TO,price crossover 20 sma
+TRP.TO,price crossover 9 sma
+UEX.TO,price crossunder 9 sma
+WCN.TO,price crossunder 9 sma
+WEED.TO,price crossover 9 sma
+YRI.TO,price crossunder 9 sma

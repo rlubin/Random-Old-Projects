@@ -1,0 +1,7 @@
+make the content centered vertically and horizontally
+
+500x500 content area
+
+stack buttons
+
+adapt for all screen sizes and browser types

@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+
+<html>
+
+  <head>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Suggest a name</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>The Lubinstons</h1>
+      <br><br><br>
+      <h3>Suggest a name for the hyphothetical child of Roxanne and Ryan</h3>
+      <tr>
+        <td>
+          <input id="first-name" placeholder="First name">
+        </td>
+        <td>
+          <input id="middle-name" placeholder="Middle name (optional)">
+        </td>
+        <td>
+          <select id="last-name">
+            <option value="Lubin">Lubin</option>
+            <option value="Manoiu">Manoiu</option>
+            <option value="Lubman">Lubman</option>
+            <option value="Lubeman">Lubeman</option>
+            <option value="Lubinston">Lubinston</option>
+            <option value="Manlub">Manlub</option>
+            <option value="Manlube">Manlube</option>
+            <option value="Manwe">Manwe</option>
+            <option value="Manston">Manston</option>
+          </select>
+        </td>
+      </tr>
+      <br><br>
+      <button id="suggest" onclick="suggest_onclick()">Suggest</button>
+      <h3>View already suggested names</h3>
+      <button id="view" onclick="view_onclick()">View</button>
+      <p id="data">
+        <!--for the database response inside all_onclick() in function.js-->
+      </p>
+    </div>
+    <script src="function.js"></script>
+    <script src="jquery-1.11.3.js"></script>
+  </body>
+
+</html>
